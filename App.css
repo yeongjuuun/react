@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.App{
+    width: 300px; height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.App>input{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.App>button{
+    width: 60px; height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 20;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.App>a{
+    position: relative; top: -22px; left: -92px;
+    cursor: pointer;
+}
+
+.App>a:hover{
+    color: #ff378c;
+}
+
+.Join{
+    width: 500px; height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.Join>form>input{
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.Join>form>button{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #000;
+}
